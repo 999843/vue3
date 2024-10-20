@@ -1,6 +1,7 @@
 <script setup>
 import Example from "./components/Example.vue";
 import TodoList from "./components/TodoList/index.vue";
+import TodoListPro from "./components/TodoListPro/index.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import TodoList from "./components/TodoList/index.vue";
 
   <main>
     <TodoList />
+    <TodoListPro />
     <!-- <Example /> -->
   </main>
 </template>

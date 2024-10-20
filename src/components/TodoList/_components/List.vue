@@ -1,7 +1,9 @@
 <script setup>
 let id = 0;
-const props = defineProps({ inputValue: String, todos: Array });
-console.log(props);
+const props = defineProps({
+  todos: Array,
+});
+console.log("props", props.todos);
 const removeTodo = (todo) => {
   todos.value = todos.value.filter((item) => item !== todo);
 };
